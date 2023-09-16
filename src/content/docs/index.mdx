@@ -1,0 +1,33 @@
+---
+title: Sourcey docs
+description: Get started
+template: splash
+hero:
+  tagline: Welcome to Sourcey
+  image:
+    file: ../../assets/logo.png
+  actions:
+    - text: Get started
+      link: /guides/getting-started/
+      icon: right-arrow
+      variant: primary
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Features
+
+<CardGrid>
+	<Card title="Aggregates" icon="puzzle">
+		Get started with a simple and flexible aggregate implementation 
+	</Card>
+	<Card title="Events" icon="open-book">
+		Store events and have a full audit of your system
+	</Card>
+	<Card title="Projections" icon="document">
+		Project out your events and replay them at any point in time
+	</Card>
+	<Card title="Database integrations" icon="setting">
+		Easily get started with entityframework core
+	</Card>
+</CardGrid>
